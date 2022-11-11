@@ -5,12 +5,12 @@ if (name) {
   console.log("The condition is False");
 }
 
-// Get True Output by
+// Get Output True by
 //True
 //Truthy
 //'0', ' ', {}, []
 
-// Get False Output by
+// Get Output False by
 //False
 // 0
 //""
