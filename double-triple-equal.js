@@ -15,3 +15,17 @@ if (first === second) {
 } else {
   console.log("The conditon is false");
 }
+
+//[1 = true, 0 = false]
+// 0 == false [true]
+// 1 == false [false]
+//0 === false [false, type not same]
+
+const num = 0;
+const statement = false;
+
+if (num == statement) {
+  console.log("The conditon is true");
+} else {
+  console.log("The conditon is false");
+}
