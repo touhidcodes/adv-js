@@ -13,11 +13,13 @@ for (let i = 0; i < numbers.length; i++) {
 console.log(output);
 
 //MAP numbers by function
-function squre(element) {
+function square(element) {
   return element * element;
 }
 
-const display = squre(numbers);
+const display = square(numbers);
+
+const Square = (element) => element * element;
 
 //Square numbers by MAP
 const result = numbers.map(function (element) {
@@ -25,3 +27,8 @@ const result = numbers.map(function (element) {
 });
 
 console.log(result);
+
+//Filter number
+const bigger = numbers.filter((element) => element > 5);
+
+console.log(bigger);
