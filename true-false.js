@@ -1,6 +1,6 @@
 // Get Output True by:
 //True
-//Truthy
+//Truthy statements
 //'0', ' ', {}, []
 
 // Get Output False by:
