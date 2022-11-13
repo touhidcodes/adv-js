@@ -14,3 +14,17 @@ for (let i = 0; i < students.length; i++) {
 }
 
 console.log(output);
+
+//MAP
+const names = students.map((s) => s.name);
+const ids = students.map((s) => s.id);
+
+console.log(names);
+console.log(ids);
+
+//filter
+const bigger = students.filter((s) => s.id > 20);
+const biggerOne = students.find((s) => s.id > 20);
+
+console.log(bigger);
+console.log(biggerOne);
